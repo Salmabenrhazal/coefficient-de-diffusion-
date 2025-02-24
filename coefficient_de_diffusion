@@ -1,0 +1,532 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPCsDR+WFMNzaJGdVXOcmY4",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    },
+    "widgets": {
+      "application/vnd.jupyter.widget-state+json": {
+        "b75b14ad46c942278245f9e22367141f": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "FloatTextModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_dom_classes": [],
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "FloatTextModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/controls",
+            "_view_module_version": "1.5.0",
+            "_view_name": "FloatTextView",
+            "continuous_update": false,
+            "description": "xA :",
+            "description_tooltip": null,
+            "disabled": false,
+            "layout": "IPY_MODEL_b2d23f01368547dfa90efd3330657498",
+            "step": null,
+            "style": "IPY_MODEL_1aba2327a5a649bc90c0dafac05b46b8",
+            "value": 0.25
+          }
+        },
+        "b2d23f01368547dfa90efd3330657498": {
+          "model_module": "@jupyter-widgets/base",
+          "model_name": "LayoutModel",
+          "model_module_version": "1.2.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/base",
+            "_model_module_version": "1.2.0",
+            "_model_name": "LayoutModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "LayoutView",
+            "align_content": null,
+            "align_items": null,
+            "align_self": null,
+            "border": null,
+            "bottom": null,
+            "display": null,
+            "flex": null,
+            "flex_flow": null,
+            "grid_area": null,
+            "grid_auto_columns": null,
+            "grid_auto_flow": null,
+            "grid_auto_rows": null,
+            "grid_column": null,
+            "grid_gap": null,
+            "grid_row": null,
+            "grid_template_areas": null,
+            "grid_template_columns": null,
+            "grid_template_rows": null,
+            "height": null,
+            "justify_content": null,
+            "justify_items": null,
+            "left": null,
+            "margin": null,
+            "max_height": null,
+            "max_width": null,
+            "min_height": null,
+            "min_width": null,
+            "object_fit": null,
+            "object_position": null,
+            "order": null,
+            "overflow": null,
+            "overflow_x": null,
+            "overflow_y": null,
+            "padding": null,
+            "right": null,
+            "top": null,
+            "visibility": null,
+            "width": null
+          }
+        },
+        "1aba2327a5a649bc90c0dafac05b46b8": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "DescriptionStyleModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "DescriptionStyleModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "StyleView",
+            "description_width": ""
+          }
+        },
+        "cddec0c94098477e831e787812496559": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "FloatTextModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_dom_classes": [],
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "FloatTextModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/controls",
+            "_view_module_version": "1.5.0",
+            "_view_name": "FloatTextView",
+            "continuous_update": false,
+            "description": "xB :",
+            "description_tooltip": null,
+            "disabled": false,
+            "layout": "IPY_MODEL_3c72c710855c432288d86d31b58ee7c4",
+            "step": null,
+            "style": "IPY_MODEL_2330eeb7771b40f48946fb1ea8f5d09a",
+            "value": 0.75
+          }
+        },
+        "3c72c710855c432288d86d31b58ee7c4": {
+          "model_module": "@jupyter-widgets/base",
+          "model_name": "LayoutModel",
+          "model_module_version": "1.2.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/base",
+            "_model_module_version": "1.2.0",
+            "_model_name": "LayoutModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "LayoutView",
+            "align_content": null,
+            "align_items": null,
+            "align_self": null,
+            "border": null,
+            "bottom": null,
+            "display": null,
+            "flex": null,
+            "flex_flow": null,
+            "grid_area": null,
+            "grid_auto_columns": null,
+            "grid_auto_flow": null,
+            "grid_auto_rows": null,
+            "grid_column": null,
+            "grid_gap": null,
+            "grid_row": null,
+            "grid_template_areas": null,
+            "grid_template_columns": null,
+            "grid_template_rows": null,
+            "height": null,
+            "justify_content": null,
+            "justify_items": null,
+            "left": null,
+            "margin": null,
+            "max_height": null,
+            "max_width": null,
+            "min_height": null,
+            "min_width": null,
+            "object_fit": null,
+            "object_position": null,
+            "order": null,
+            "overflow": null,
+            "overflow_x": null,
+            "overflow_y": null,
+            "padding": null,
+            "right": null,
+            "top": null,
+            "visibility": null,
+            "width": null
+          }
+        },
+        "2330eeb7771b40f48946fb1ea8f5d09a": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "DescriptionStyleModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "DescriptionStyleModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "StyleView",
+            "description_width": ""
+          }
+        },
+        "286835d5d8c54e4b9042fcb998254a77": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "ButtonModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_dom_classes": [],
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "ButtonModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/controls",
+            "_view_module_version": "1.5.0",
+            "_view_name": "ButtonView",
+            "button_style": "",
+            "description": "Calculer D_AB",
+            "disabled": false,
+            "icon": "",
+            "layout": "IPY_MODEL_9101575c350542ccb1c9bf5d65745b06",
+            "style": "IPY_MODEL_2aba57de33244906bb917adef602e22e",
+            "tooltip": ""
+          }
+        },
+        "9101575c350542ccb1c9bf5d65745b06": {
+          "model_module": "@jupyter-widgets/base",
+          "model_name": "LayoutModel",
+          "model_module_version": "1.2.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/base",
+            "_model_module_version": "1.2.0",
+            "_model_name": "LayoutModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "LayoutView",
+            "align_content": null,
+            "align_items": null,
+            "align_self": null,
+            "border": null,
+            "bottom": null,
+            "display": null,
+            "flex": null,
+            "flex_flow": null,
+            "grid_area": null,
+            "grid_auto_columns": null,
+            "grid_auto_flow": null,
+            "grid_auto_rows": null,
+            "grid_column": null,
+            "grid_gap": null,
+            "grid_row": null,
+            "grid_template_areas": null,
+            "grid_template_columns": null,
+            "grid_template_rows": null,
+            "height": null,
+            "justify_content": null,
+            "justify_items": null,
+            "left": null,
+            "margin": null,
+            "max_height": null,
+            "max_width": null,
+            "min_height": null,
+            "min_width": null,
+            "object_fit": null,
+            "object_position": null,
+            "order": null,
+            "overflow": null,
+            "overflow_x": null,
+            "overflow_y": null,
+            "padding": null,
+            "right": null,
+            "top": null,
+            "visibility": null,
+            "width": null
+          }
+        },
+        "2aba57de33244906bb917adef602e22e": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "ButtonStyleModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "ButtonStyleModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "StyleView",
+            "button_color": null,
+            "font_weight": ""
+          }
+        },
+        "c78c4255e7a84aa09fc2f47ebcff0e47": {
+          "model_module": "@jupyter-widgets/output",
+          "model_name": "OutputModel",
+          "model_module_version": "1.0.0",
+          "state": {
+            "_dom_classes": [],
+            "_model_module": "@jupyter-widgets/output",
+            "_model_module_version": "1.0.0",
+            "_model_name": "OutputModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/output",
+            "_view_module_version": "1.0.0",
+            "_view_name": "OutputView",
+            "layout": "IPY_MODEL_2d1ce94e169742418aa2668306993079",
+            "msg_id": "",
+            "outputs": [
+              {
+                "output_type": "stream",
+                "name": "stdout",
+                "text": [
+                  "D_AB calculé = 1.351658e-05 cm²/s\n",
+                  "Erreur = 1.63 %\n"
+                ]
+              }
+            ]
+          }
+        },
+        "2d1ce94e169742418aa2668306993079": {
+          "model_module": "@jupyter-widgets/base",
+          "model_name": "LayoutModel",
+          "model_module_version": "1.2.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/base",
+            "_model_module_version": "1.2.0",
+            "_model_name": "LayoutModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "LayoutView",
+            "align_content": null,
+            "align_items": null,
+            "align_self": null,
+            "border": null,
+            "bottom": null,
+            "display": null,
+            "flex": null,
+            "flex_flow": null,
+            "grid_area": null,
+            "grid_auto_columns": null,
+            "grid_auto_flow": null,
+            "grid_auto_rows": null,
+            "grid_column": null,
+            "grid_gap": null,
+            "grid_row": null,
+            "grid_template_areas": null,
+            "grid_template_columns": null,
+            "grid_template_rows": null,
+            "height": null,
+            "justify_content": null,
+            "justify_items": null,
+            "left": null,
+            "margin": null,
+            "max_height": null,
+            "max_width": null,
+            "min_height": null,
+            "min_width": null,
+            "object_fit": null,
+            "object_position": null,
+            "order": null,
+            "overflow": null,
+            "overflow_x": null,
+            "overflow_y": null,
+            "padding": null,
+            "right": null,
+            "top": null,
+            "visibility": null,
+            "width": null
+          }
+        }
+      }
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Salmabenrhazal/coefficient-de-diffusion-/blob/main/coefficient_de_diffusion\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 146,
+          "referenced_widgets": [
+            "b75b14ad46c942278245f9e22367141f",
+            "b2d23f01368547dfa90efd3330657498",
+            "1aba2327a5a649bc90c0dafac05b46b8",
+            "cddec0c94098477e831e787812496559",
+            "3c72c710855c432288d86d31b58ee7c4",
+            "2330eeb7771b40f48946fb1ea8f5d09a",
+            "286835d5d8c54e4b9042fcb998254a77",
+            "9101575c350542ccb1c9bf5d65745b06",
+            "2aba57de33244906bb917adef602e22e",
+            "c78c4255e7a84aa09fc2f47ebcff0e47",
+            "2d1ce94e169742418aa2668306993079"
+          ]
+        },
+        "id": "YIGpfryzcdzS",
+        "outputId": "f86eae40-0ea2-4889-9d5c-4db5d3ee1d06"
+      },
+      "outputs": [
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "FloatText(value=0.5, description='xA :')"
+            ],
+            "application/vnd.jupyter.widget-view+json": {
+              "version_major": 2,
+              "version_minor": 0,
+              "model_id": "b75b14ad46c942278245f9e22367141f"
+            }
+          },
+          "metadata": {}
+        },
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "FloatText(value=0.5, description='xB :')"
+            ],
+            "application/vnd.jupyter.widget-view+json": {
+              "version_major": 2,
+              "version_minor": 0,
+              "model_id": "cddec0c94098477e831e787812496559"
+            }
+          },
+          "metadata": {}
+        },
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "Button(description='Calculer D_AB', style=ButtonStyle())"
+            ],
+            "application/vnd.jupyter.widget-view+json": {
+              "version_major": 2,
+              "version_minor": 0,
+              "model_id": "286835d5d8c54e4b9042fcb998254a77"
+            }
+          },
+          "metadata": {}
+        },
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "Output()"
+            ],
+            "application/vnd.jupyter.widget-view+json": {
+              "version_major": 2,
+              "version_minor": 0,
+              "model_id": "c78c4255e7a84aa09fc2f47ebcff0e47"
+            }
+          },
+          "metadata": {}
+        }
+      ],
+      "source": [
+        "import ipywidgets as widgets\n",
+        "from IPython.display import display, clear_output\n",
+        "import numpy as np\n",
+        "\n",
+        "# Création des champs de saisie\n",
+        "xA_input = widgets.FloatText(description=\"xA :\", value=0.5)\n",
+        "xB_input = widgets.FloatText(description=\"xB :\", value=0.5)\n",
+        "\n",
+        "# Zone d'affichage des résultats\n",
+        "output = widgets.Output()\n",
+        "\n",
+        "# Fonction pour calculer D_AB et afficher le résultat\n",
+        "def calculer_D_AB(b):\n",
+        "    with output:\n",
+        "        clear_output(wait=True)  # Efface le précédent résultat\n",
+        "        xA = xA_input.value\n",
+        "        xB = xB_input.value\n",
+        "\n",
+        "        # Vérification que xA + xB = 1\n",
+        "        if abs(xA + xB - 1) > 1e-6:\n",
+        "            print(\"Erreur : xA + xB doit être égal à 1\")\n",
+        "            return\n",
+        "\n",
+        "        # Définition des constantes (remplace ces valeurs par les bonnes si besoin)\n",
+        "        D_AB_0_A = 2.1e-5\n",
+        "        D_AB_0_B = 2.67e-5\n",
+        "        phi_A = 0.279\n",
+        "        phi_B = 0.721\n",
+        "        lambda_A = 1.127\n",
+        "        lambda_B = 0.973\n",
+        "        q_A = 1.432\n",
+        "        q_B = 1.4\n",
+        "        theta_BA = 0.612\n",
+        "        theta_BB = 0.739\n",
+        "        theta_AB = 0.261\n",
+        "        theta_AA = 0.388\n",
+        "        tau_BA = 0.5373\n",
+        "        tau_AB = 1.035\n",
+        "\n",
+        "        # Calcul du coefficient de diffusion selon ta nouvelle formule\n",
+        "        term1 = xB * np.log(D_AB_0_A) + xA * np.log(D_AB_0_B)\n",
+        "        term2 = 2 * (xA * np.log(xA / phi_A) + xB * np.log(xB / phi_B))\n",
+        "        term3 = 2 * xA * xB * ((phi_A / xA) * (1 - (lambda_A / lambda_B)) + (phi_B / xB) * (1 - (lambda_B / lambda_A)))\n",
+        "        term4 = (xB * q_A) * ((1 - theta_BA **2) * np.log(tau_BA) + (1 - theta_BB **2) * tau_AB * np.log(tau_AB))\n",
+        "        term5 = (xA * q_B) * ((1 - theta_AB **2) * np.log(tau_AB) + (1 - theta_AA **2) * tau_BA * np.log(tau_BA))\n",
+        "\n",
+        "        ln_D_AB = term1 + term2 + term3 + term4 + term5\n",
+        "        D_AB_calculé = np.exp(ln_D_AB)  # Nouvelle expression pour D_AB\n",
+        "\n",
+        "        D_AB_réel = 1.33e-5  # Exemple de valeur de référence\n",
+        "\n",
+        "        # Calcul de l'erreur en pourcentage\n",
+        "        erreur = abs((D_AB_calculé - D_AB_réel) / D_AB_réel) * 100\n",
+        "\n",
+        "        # Affichage des résultats\n",
+        "        print(f\"D_AB calculé = {D_AB_calculé:.6e} cm²/s\")  # Format scientifique\n",
+        "        print(f\"Erreur = {erreur:.2f} %\")\n",
+        "\n",
+        "# Bouton pour lancer le calcul\n",
+        "btn_calculer = widgets.Button(description=\"Calculer D_AB\")\n",
+        "btn_calculer.on_click(calculer_D_AB)\n",
+        "\n",
+        "# Affichage des widgets\n",
+        "display(xA_input, xB_input, btn_calculer, output)\n"
+      ]
+    }
+  ]
+}
